@@ -1,0 +1,12 @@
+ list, pull, show, and rm subcommands.
+1. To list all the resources in the current state
+Syntax: terraform state list
+
+2. To pull and display the current state
+Syntax: terraform state pull
+
+3. To show details about a particular resource in the state
+Syntax: terraform state show <resource name from the list>
+
+4. To remove an object from the state
+Syntax: terraform state rm <name of the resource from the list>
